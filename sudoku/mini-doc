@@ -1,0 +1,6 @@
+dependencies:
+python3 -m pip install pylatex
+python3 -m pip install numpy
+sudo apt-get install latexmk
+sudo apt-get install -y texlive-latex-extra
+pip3 install pdflatex
