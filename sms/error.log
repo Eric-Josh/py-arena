@@ -1,0 +1,54 @@
+2022-11-26 17:24:06,807 INFO root MainThread : ACd9e74bf9ac778305c947b45879a17281
+2022-11-26 17:38:47,699 INFO twilio.http_client MainThread : -- BEGIN Twilio API Request --
+2022-11-26 17:38:47,700 INFO twilio.http_client MainThread : POST Request: https://api.twilio.com/2010-04-01/Accounts/ACd9e74bf9ac778305c947b45879a17281/Messages.json
+2022-11-26 17:38:47,700 INFO twilio.http_client MainThread : Headers:
+2022-11-26 17:38:47,700 INFO twilio.http_client MainThread : User-Agent : twilio-python/7.15.3 (Windows AMD64) Python/3.10.6
+2022-11-26 17:38:47,700 INFO twilio.http_client MainThread : X-Twilio-Client : python-7.15.3
+2022-11-26 17:38:47,700 INFO twilio.http_client MainThread : Accept-Charset : utf-8
+2022-11-26 17:38:47,700 INFO twilio.http_client MainThread : Content-Type : application/x-www-form-urlencoded
+2022-11-26 17:38:47,702 INFO twilio.http_client MainThread : Accept : application/json
+2022-11-26 17:38:47,702 INFO twilio.http_client MainThread : -- END Twilio API Request --
+2022-11-26 17:38:47,708 DEBUG urllib3.connectionpool MainThread : Starting new HTTPS connection (1): api.twilio.com:443
+2022-11-26 17:38:48,940 DEBUG urllib3.connectionpool MainThread : https://api.twilio.com:443 "POST /2010-04-01/Accounts/ACd9e74bf9ac778305c947b45879a17281/Messages.json HTTP/1.1" 400 149
+2022-11-26 17:38:48,941 INFO twilio.http_client MainThread : Response Status Code: 400
+2022-11-26 17:38:48,942 INFO twilio.http_client MainThread : Response Headers: {'Date': 'Sat, 26 Nov 2022 16:38:48 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '149', 'Connection': 'keep-alive', 'Twilio-Request-Id': 'RQ813387bf0d75a8dcf533dcf0f606fc4c', 'Twilio-Request-Duration': '0.110', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Headers': 'Accept, Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, Idempotency-Key', 'Access-Control-Allow-Methods': 'GET, POST, DELETE, OPTIONS', 'Access-Control-Expose-Headers': 'ETag', 'Access-Control-Allow-Credentials': 'true', 'X-Powered-By': 'AT-5000', 'Twilio-Concurrent-Requests': '1', 'X-Shenanigans': 'none', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000'}
+2022-11-26 17:40:00,292 INFO twilio.http_client MainThread : -- BEGIN Twilio API Request --
+2022-11-26 17:40:00,293 INFO twilio.http_client MainThread : POST Request: https://api.twilio.com/2010-04-01/Accounts/ACd9e74bf9ac778305c947b45879a17281/Messages.json
+2022-11-26 17:40:00,293 INFO twilio.http_client MainThread : Headers:
+2022-11-26 17:40:00,293 INFO twilio.http_client MainThread : User-Agent : twilio-python/7.15.3 (Windows AMD64) Python/3.10.6
+2022-11-26 17:40:00,293 INFO twilio.http_client MainThread : X-Twilio-Client : python-7.15.3
+2022-11-26 17:40:00,293 INFO twilio.http_client MainThread : Accept-Charset : utf-8
+2022-11-26 17:40:00,293 INFO twilio.http_client MainThread : Content-Type : application/x-www-form-urlencoded
+2022-11-26 17:40:00,293 INFO twilio.http_client MainThread : Accept : application/json
+2022-11-26 17:40:00,293 INFO twilio.http_client MainThread : -- END Twilio API Request --
+2022-11-26 17:40:00,298 DEBUG urllib3.connectionpool MainThread : Starting new HTTPS connection (1): api.twilio.com:443
+2022-11-26 17:40:01,766 DEBUG urllib3.connectionpool MainThread : https://api.twilio.com:443 "POST /2010-04-01/Accounts/ACd9e74bf9ac778305c947b45879a17281/Messages.json HTTP/1.1" 201 845
+2022-11-26 17:40:01,767 INFO twilio.http_client MainThread : Response Status Code: 201
+2022-11-26 17:40:01,768 INFO twilio.http_client MainThread : Response Headers: {'Date': 'Sat, 26 Nov 2022 16:40:01 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '845', 'Connection': 'keep-alive', 'Twilio-Request-Id': 'RQ4cbea7921552b39067e7d922d9a98e85', 'Twilio-Request-Duration': '0.531', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Headers': 'Accept, Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, Idempotency-Key', 'Access-Control-Allow-Methods': 'GET, POST, DELETE, OPTIONS', 'Access-Control-Expose-Headers': 'ETag', 'Access-Control-Allow-Credentials': 'true', 'X-Powered-By': 'AT-5000', 'Twilio-Concurrent-Requests': '1', 'X-Shenanigans': 'none', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000'}
+2022-11-26 17:40:01,768 INFO root MainThread : <Twilio.Api.V2010.MessageInstance account_sid=ACd9e74bf9ac778305c947b45879a17281 sid=SM4cbea7921552b39067e7d922d9a98e85>
+2022-11-26 18:30:35,800 INFO twilio.http_client MainThread : -- BEGIN Twilio API Request --
+2022-11-26 18:30:35,803 INFO twilio.http_client MainThread : POST Request: https://api.twilio.com/2010-04-01/Accounts/ACd9e74bf9ac778305c947b45879a17281/Messages.json
+2022-11-26 18:30:35,803 INFO twilio.http_client MainThread : Headers:
+2022-11-26 18:30:35,803 INFO twilio.http_client MainThread : User-Agent : twilio-python/7.15.3 (Windows AMD64) Python/3.10.6
+2022-11-26 18:30:35,803 INFO twilio.http_client MainThread : X-Twilio-Client : python-7.15.3
+2022-11-26 18:30:35,803 INFO twilio.http_client MainThread : Accept-Charset : utf-8
+2022-11-26 18:30:35,804 INFO twilio.http_client MainThread : Content-Type : application/x-www-form-urlencoded
+2022-11-26 18:30:35,804 INFO twilio.http_client MainThread : Accept : application/json
+2022-11-26 18:30:35,804 INFO twilio.http_client MainThread : -- END Twilio API Request --
+2022-11-26 18:30:35,810 DEBUG urllib3.connectionpool MainThread : Starting new HTTPS connection (1): api.twilio.com:443
+2022-11-26 18:30:37,039 DEBUG urllib3.connectionpool MainThread : https://api.twilio.com:443 "POST /2010-04-01/Accounts/ACd9e74bf9ac778305c947b45879a17281/Messages.json HTTP/1.1" 201 845
+2022-11-26 18:30:37,040 INFO twilio.http_client MainThread : Response Status Code: 201
+2022-11-26 18:30:37,041 INFO twilio.http_client MainThread : Response Headers: {'Date': 'Sat, 26 Nov 2022 17:30:36 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '845', 'Connection': 'keep-alive', 'Twilio-Request-Id': 'RQad8974aa6148bee1bbd7b8444d03e366', 'Twilio-Request-Duration': '0.131', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Headers': 'Accept, Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, Idempotency-Key', 'Access-Control-Allow-Methods': 'GET, POST, DELETE, OPTIONS', 'Access-Control-Expose-Headers': 'ETag', 'Access-Control-Allow-Credentials': 'true', 'X-Powered-By': 'AT-5000', 'Twilio-Concurrent-Requests': '1', 'X-Shenanigans': 'none', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000'}
+2022-11-26 18:37:14,790 INFO twilio.http_client MainThread : -- BEGIN Twilio API Request --
+2022-11-26 18:37:14,795 INFO twilio.http_client MainThread : POST Request: https://api.twilio.com/2010-04-01/Accounts/ACd9e74bf9ac778305c947b45879a17281/Messages.json
+2022-11-26 18:37:14,795 INFO twilio.http_client MainThread : Headers:
+2022-11-26 18:37:14,795 INFO twilio.http_client MainThread : User-Agent : twilio-python/7.15.3 (Windows AMD64) Python/3.10.6
+2022-11-26 18:37:14,795 INFO twilio.http_client MainThread : X-Twilio-Client : python-7.15.3
+2022-11-26 18:37:14,796 INFO twilio.http_client MainThread : Accept-Charset : utf-8
+2022-11-26 18:37:14,796 INFO twilio.http_client MainThread : Content-Type : application/x-www-form-urlencoded
+2022-11-26 18:37:14,796 INFO twilio.http_client MainThread : Accept : application/json
+2022-11-26 18:37:14,796 INFO twilio.http_client MainThread : -- END Twilio API Request --
+2022-11-26 18:37:14,806 DEBUG urllib3.connectionpool MainThread : Starting new HTTPS connection (1): api.twilio.com:443
+2022-11-26 18:37:16,292 DEBUG urllib3.connectionpool MainThread : https://api.twilio.com:443 "POST /2010-04-01/Accounts/ACd9e74bf9ac778305c947b45879a17281/Messages.json HTTP/1.1" 400 219
+2022-11-26 18:37:16,293 INFO twilio.http_client MainThread : Response Status Code: 400
+2022-11-26 18:37:16,294 INFO twilio.http_client MainThread : Response Headers: {'Date': 'Sat, 26 Nov 2022 17:37:16 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '219', 'Connection': 'keep-alive', 'Twilio-Request-Id': 'RQ991647ccfe5f292ea608e1b56125e1f1', 'Twilio-Request-Duration': '0.074', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Headers': 'Accept, Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, Idempotency-Key', 'Access-Control-Allow-Methods': 'GET, POST, DELETE, OPTIONS', 'Access-Control-Expose-Headers': 'ETag', 'Access-Control-Allow-Credentials': 'true', 'X-Powered-By': 'AT-5000', 'Twilio-Concurrent-Requests': '1', 'X-Shenanigans': 'none', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000'}
