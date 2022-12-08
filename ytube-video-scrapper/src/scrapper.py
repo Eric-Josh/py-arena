@@ -16,7 +16,7 @@ def scrapeVideo():
 
     proxy = getRandomProxy()
     proxies = {
-        "http": f"https://{proxy['ip']}:{proxy['port']}",
+        "http": f"http://{proxy['ip']}:{proxy['port']}",
         # "https": f"https://{proxy['ip']}:{proxy['port']}",
     }
     header = {
