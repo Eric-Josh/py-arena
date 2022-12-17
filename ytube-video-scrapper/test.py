@@ -82,10 +82,7 @@ def scrapeYtube():
 
 
 # LoadUpProxies()
-scrapeYtube()
-
-
-
+# scrapeYtube()
 
 # Reference: 
 # https://proxiesapi.com/blog/biulding-a-simple-proxy-rotator-with-python-and-be.html.php

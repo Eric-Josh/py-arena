@@ -17,7 +17,8 @@ def autoSuggestKeywords():
 
         proxy = getRandomProxy()
         proxies = {
-            "http": f"http://{proxy['ip']}:{proxy['port']}"        }
+            "http": f"http://{proxy['ip']}:{proxy['port']}"
+        }
         header = {
             'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_2) AppleWebKit/601.3.9 (KHTML, like Gecko) Version/9.0.2 Safari/601.3.9'
         }
