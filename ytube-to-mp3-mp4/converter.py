@@ -22,7 +22,7 @@ def download_ytvid_as_mp3():
 
 def download_ytvid_as_mp4():
     video_url = input("enter url of youtube video:")
-    video_info = youtube_dl.YoutubeDL().extract_info(url = video_url,download=False)
+    video_info = youtube_dl.YoutubeDL().extract_info(video_url, download=False)
     filename = f"{video_info['title']}.mp4"
     ydl_opts = {
         'format':'bestvideo/best',

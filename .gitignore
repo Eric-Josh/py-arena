@@ -1,3 +1,5 @@
 venv/
 sms/.env
 ytube-to-mp3-mp4/storage/*
+ytube-video-scrapper/static/mp4/*
+ytube-video-scrapper/static/mp3/*

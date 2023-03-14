@@ -47,12 +47,14 @@ class YTubeVideoConverter:
             'outtmpl':filename,
         }
         self.download(filename, options)
-        
+
     def to_mp4(self):
         filename = f"{secrets.token_hex(16)}.mp4"
         options = {
-            'format':'bestvideo/best',
+            'format':'136',
             'keepvideo': False,
+            'noplaylist' : True,
+            'merge_output_format': 'mp4',
             'outtmpl':filename,
         }
         self.download(filename, options)
@@ -65,7 +67,7 @@ class YTubeVideoConverter:
         print("Download complete... {}".format(filename))
         print('='*25)
 
-
+# https://youtu.be/kV_jtZGVkn4
 video_url = input("Enter url of youtube video:")
 
 user_input = YTubeVideoConverter(video_url)
